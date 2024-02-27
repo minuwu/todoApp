@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    min-height: 100vh;
+    max-height: fit-content;
+    margin: 0;
+    padding: 1rem;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+} 
+.app{
+    min-width: 20rem;
+    max-width: 30rem;
+    background-color: rgb(75, 152, 152);
+    border: .2rem solid rgb(94, 244, 191);
+    border-radius: .5rem;
+    box-shadow: 1px 1px 3px rgb(9, 127, 82);
+    padding: .5rem;
+} 
+.header{
+    border: .15rem solid palegreen;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    text-align: center;
+    background-color: aquamarine;
+    box-shadow: 1px 1px 3px rgb(9, 127, 82);
+} 
+.header h2{
+    margin: .5rem;
+    color: royalblue;
+    font-weight: 800;
+    line-height: 2.5rem;
+    font-size: 2.6rem;
+}
+.text-input{
+    font-color: rgb(7, 7, 6);
+    background-color: paleturquoise;
+    text-align: center;
+    width: 90%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    border: none;
+    border-radius: .3rem;
+    box-shadow: 0px 0px 5px rgb(9, 127, 82);
+    margin: .1rem;
+} 
+.btn-submit{
+    background-color: greenyellow;
+    width: 90%;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: .3rem;
+    box-shadow: 0px 0px 5px rgb(9, 127, 82);
+    margin: .3rem;
+} 
+.todo-body{
+    border-radius: .2rem;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px rgb(9, 127, 82);
+} 
+.todo{
+    display: flex;
+    background-color: rgb(113, 231, 191);
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    /* border: none; */
+    padding: .2rem;
+    padding-left: .5rem;
+    border-radius: .2rem;
+    margin: .2rem
+} 
+.todo-item{
+    font-weight: 500;
+    padding-left: .5rem;
+    width: 90%;
+} 
+.btn-dlt{
+    font-size: 1.2rem;
+    width: 2rem;
+    height: 2rem;
+    color: whitesmoke;
+    border: none;
+    border-radius: 33%;
+    box-shadow: 1px 1px 3px rgb(158, 15, 15);
+    background-color: rgb(252, 96, 96);
+}
+.btn-dlt:hover, .btn-submit:hover{
+    transform: scale(1.01);
+    filter:contrast(95%);
+}
